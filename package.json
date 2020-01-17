@@ -21,9 +21,9 @@
     "prettier": "^1.19.1"
   },
   "scripts": {
-		"lint": "eslint .",
+    "lint": "eslint .",
     "test": "jest"
   },
   "author": "ohpyupi@gmail.com",
-  "license": "ISC"
+  "license": "MIT"
 }

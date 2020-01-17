@@ -53,7 +53,7 @@ Returns a data entry that is found first from the result of the query
 Queries are Javascript objects that describe which data entry will be returned
 
 
-##### No nested-structure
+#### No nested-structure
 
 When your query or data entry has a nested-strcutrue, the query won't work. This is simply beyond the scope of this library.
 You might need to find other query libraries.
