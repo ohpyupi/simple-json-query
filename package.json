@@ -1,7 +1,7 @@
 {
   "name": "simple-json-query",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "This library is to enable JSON to be used as a query against a list of data entry. The library is not designed to be performant over dynamic and large data entry list.\r Rather, it is encouraged to be used when your data entry list is short or static, but still you want a query-flavor search system.",
   "main": "./lib/index.js",
   "files": [
     "/lib"
@@ -26,5 +26,17 @@
     "test": "jest"
   },
   "author": "ohpyupi@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohpyupi/simple-json-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ohpyupi/simple-json-query/issues"
+  },
+  "homepage": "https://github.com/ohpyupi/simple-json-query#readme",
+  "keywords": [
+    "json",
+    "query"
+  ]
 }
