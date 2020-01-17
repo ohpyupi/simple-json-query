@@ -1,0 +1,38 @@
+{
+	"extends": ["airbnb-base", "plugin:prettier/recommended"],
+	"plugins": ["prettier", "jest"],
+	"env": {
+		"jest/globals": true
+	},
+	"rules": {
+		"quotes": [
+			2,
+			"single",
+			{
+				"avoidEscape": true,
+				"allowTemplateLiterals": true
+			}
+		],
+		"func-names": "off",
+		"import/prefer-default-export": 0,
+		"max-len": "off",
+		"new-cap": "off",
+		"no-console": "off",
+		"no-default-export": 0,
+		"no-loop-func": "off",
+		"no-param-reassign": "off",
+		"no-restricted-syntax": "off",
+		"no-underscore-dangle": "off",
+		"no-unused-expressions": 0,
+		"no-useless-escape": "off",
+		"prefer-arrow-callback": "off",
+		"prefer-destructuring": "off",
+		"prettier/prettier": "error",
+		"space-before-function-paren": "off",
+		"jest/no-disabled-tests": "warn",
+		"jest/no-focused-tests": "error",
+		"jest/no-identical-title": "error",
+		"jest/prefer-to-have-length": "warn",
+		"jest/valid-expect": "error"
+	}
+}
