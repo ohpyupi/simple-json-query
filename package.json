@@ -1,6 +1,6 @@
 {
   "name": "simple-json-query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./lib/index.js",
   "files": [
@@ -10,9 +10,7 @@
     "lib": "lib",
     "test": "tests"
   },
-  "dependencies": {
-    "json-query": "^2.2.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
