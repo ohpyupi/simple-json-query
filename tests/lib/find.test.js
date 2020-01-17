@@ -16,7 +16,7 @@ describe('findAll', () => {
       return false;
     });
     const result = findAll({}, list);
-    expect(result.length).toHaveLength(0);
+    expect(result).toHaveLength(0);
     expect(spyOnIsMatched).toHaveBeenCalled();
   });
   it('should return matched entries from a list', () => {
@@ -28,14 +28,14 @@ describe('findAll', () => {
         foo: 'boo',
       },
     ];
-    const spyOnIsMatched = jest.spyOn(matchHelper, 'isMatched').mockImplementation(entry => {
+    const spyOnIsMatched = jest.spyOn(matchHelper, 'isMatched').mockImplementation((query, entry) => {
       if (entry.hello) {
         return true;
       }
       return false;
     });
     const result = findAll({}, list);
-    expect(result.length).toHaveLength(1);
+    expect(result).toHaveLength(1);
     expect(result[0].hello).toBe('world');
     expect(result[0].foo).not.toBe('boo');
     expect(spyOnIsMatched).toHaveBeenCalled();
