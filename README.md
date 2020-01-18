@@ -3,6 +3,11 @@
 This library is to enable JSON to be used as a query against a list of data entry. The library is not designed to be performant over dynamic and large data entry list.
 Rather, it is encouraged to be used when your data entry list is short or static, but still you want a query-flavor search system.
 
+## Installation
+
+```bash
+$ npm install simple-json-query -S
+```
 
 ## API
 
